@@ -218,7 +218,7 @@
                         }
                     }
                 },
-                "description": "API call to detail of Product by Id"
+                "description": "Product Details by Id"
             },
             "product-list": {
                 "content": {
