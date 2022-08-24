@@ -11,6 +11,8 @@
     },
     "paths": {
         "/services/product/{id}": {
+            "summary": "Get product by Id",
+            "description": "Get product by Id",
             "get": {
                 "parameters": [
                     {
@@ -40,7 +42,8 @@
                         "product-catalog-api": [
                         ]
                     }
-                ]
+                ],
+                "description": "Get product by Id"
             },
             "parameters": [
                 {
@@ -130,6 +133,7 @@
             }
         },
         "/services/product/list/{ids}": {
+            "description": "Get products list by Ids",
             "get": {
                 "parameters": [
                     {
