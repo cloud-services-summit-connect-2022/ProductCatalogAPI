@@ -43,6 +43,7 @@
                         ]
                     }
                 ],
+                "summary": "Get product by Id",
                 "description": "Get product by Id"
             },
             "parameters": [
